@@ -39,10 +39,10 @@ class VendorEndpointTestCase(TestCase):
             contact_details='Contact info 1',
             address='Address 1',
             vendor_code='VC001',
-            on_time_delivery_rate=95.0,
-            quality_rating_avg=4.5,
-            average_response_time=24.5,
-            fulfillment_rate=90.0
+            on_time_delivery_rate=15.0,
+            quality_rating_avg=2.5,
+            average_response_time=34.5,
+            fulfillment_rate=94.0
         )
 
     def test_get_vendor(self):
